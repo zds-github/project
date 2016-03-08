@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >   
+    <TextView android:id="@+id/lblFireworkText"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="烟花文字：" />   
+    <EditText android:id="@+id/txtFireworkText"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"
+        android:text="老婆我爱你" >   
+        <requestFocus />   
+    </EditText>    
+    <TextView   
+        android:id="@+id/lblFireworkSize"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="烟花大小：" /> 
+    <EditText android:id="@+id/txtFireworkSize"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content" 
+        android:text="30"/>   
+</LinearLayout> 
